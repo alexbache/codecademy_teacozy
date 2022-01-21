@@ -1,0 +1,133 @@
+html{
+    font-family:Helvetica;
+    font-size:22px;
+    background-color: black;
+    opacity: 0.9;
+    color:seashell;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1{
+    color:white;
+
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:69px;
+    padding:0px 20px;
+    border-bottom: 1px solid seashell;
+    top:0;
+    position:fixed;
+    width: 100%;
+    background-color: black;
+}
+
+
+#logo{
+    height:50px;
+
+}
+
+#navmenu{
+    display:flex;
+    justify-content: space-between;
+    width:40%;
+    list-style-type: none;
+
+
+}
+
+#navmenu li{
+    text-decoration: underline;
+
+}
+
+section{
+    /* border:dotted 1px white; */
+    
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:69px;
+}
+
+#jumbotron{
+    height: 700px;
+    width:94%;
+    background-image: url("resources/img-mission-background.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#mission{
+    background-color: black;
+    display:flex;
+    flex-direction:column;
+    height: 120px;
+    align-items: center;
+    width: 100%;
+    justify-content:space-around;
+}
+
+#mission > h2,#mission> h4{
+    text-align: center;
+
+}
+
+#thismonth{
+    width:90%;
+    text-align: center;
+    height:700px;
+    padding-top: 50px;
+}
+
+#thismonth>h2, #thismonth>h4{
+    margin:12px;
+}
+
+
+.gallery{
+    margin-top:25px;
+    width: 100%;
+    /* background-color: yellow; */
+
+}
+
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.item-card{
+    /* border:solid 1px red; */
+    width:300px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:10px 12px;
+
+}
+
+.item-card img{
+    width:300px;
+    padding-bottom: 10px;
+}
